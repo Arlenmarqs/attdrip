@@ -172,5 +172,39 @@ input[type="radio"] {
 input[type="radio"]:checked {
   border: 5px solid #e00070;
 }
+@media (max-width: 600px) {
+  #heroBanner {
+    padding: 1rem;
+  }
+
+  aside.filter-container {
+    width: 100%;
+    padding: 1rem;
+    box-shadow: none;
+  }
+
+  #sneakers {
+    grid-template-columns: 1fr;
+  }
+
+  .cards {
+    width: 100%;
+    padding: 1em;
+  }
+
+  .offText {
+    font-size: 11px;
+    width: auto;
+    padding: 3px 6px;
+  }
+
+  .description p {
+    font-size: 14px;
+  }
+
+  label {
+    font-size: 13px;
+  }
+}
 
 
